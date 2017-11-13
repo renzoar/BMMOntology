@@ -1,0 +1,888 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/bmm#"
+     xml:base="http://www.semanticweb.org/ontologies/bmm"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/bmm">
+        <rdfs:label>The Business Motivation Model Ontology</rdfs:label>
+        <terms:title>The Business Motivation Model Ontology</terms:title>
+        <terms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2017-10-20</terms:created>
+        <terms:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</terms:hasVersion>
+        <terms:description>This ontology describe the main element of the Business Motivation Model (BMM), which describes a scheme or structure for developing, communicating, and managing business plans in an organized manner. Specifically, the Business Motivation Model does all of the following: Identifies factors that motivate the establishing of business plans; Identifies and defines the elements of business plans; Indicates how all these factors and elements inter-relate.</terms:description>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#achieves -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#achieves">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#channelsEffortsTowards"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Tactic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Objective"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#actsAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#actsAs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Directive"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Regulation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#affectsAchievementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#affectsAchievementOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Assessment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#End"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#affectsEmploymentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#affectsEmploymentOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Assessment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Means"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#amplifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#amplifies">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Goal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Vision"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#channelsEffortsTowards -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#channelsEffortsTowards">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#CourseOfAction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#DesiredResult"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#defines -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#defines">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#elementOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#BusinessPlan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Concept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#effectsEnforcementLevelOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#effectsEnforcementLevelOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Tactic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#BusinessRule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#elementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#elementOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Concept"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#BusinessPlan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#expressesImpactOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#expressesImpactOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Assessment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Influencer"/>
+        <rdfs:comment xml:lang="en">Each assessment expresses impact of at least one influencer on at least one end or at least one means.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#governs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#governs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Directive"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#CourseOfAction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#hasEffectOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#hasEffectOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Influencer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#End"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Means"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#identifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#identifies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Assessment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#PotentialImpact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#implements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#implements">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Tactic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Strategy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#includes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#DesiredResult"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#DesiredResult"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#isDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#isDerivedFrom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#BusinessRule"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#BusinessPolicy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#isFormulatedBasedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#isFormulatedBasedOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#CourseOfAction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Directive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#isImpactedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#isImpactedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#End"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Means"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Influencer"/>
+        <rdfs:comment xml:lang="en">The potential impacts of influencers on an end are expressed in assessments.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#isJudgmentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#isJudgmentOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Assessment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Influencer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#isPlanedByMeansOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#isPlanedByMeansOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Mission"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Strategy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#makesOperative -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#makesOperative">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Mission"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Vision"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#providesImpetusFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#providesImpetusFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#PotentialImpact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Directive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#quantifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#quantifies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Objective"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Goal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#sourceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#sourceOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Directive"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#CourseOfAction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#supports">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#channelsEffortsTowards"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Strategy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Goal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#supportsAchievementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#supportsAchievementOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Directive"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#DesiredResult"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#uses">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Assessment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/bmm#Assessment"/>
+        <terms:description xml:lang="en">Assessments can also use other assessments.</terms:description>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#action -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#action">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Mission"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#creationDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#creationDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#BusinessPlan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#End"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#creator -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#creator">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#BusinessPlan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#CourseOfAction"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#End"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Concept"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#identifier">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Concept"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#manager -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#manager">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Directive"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#market -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#market">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Mission"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#measure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#measure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Objective"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#organizationUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#organizationUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#End"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#result -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#result">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Mission"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#stakeholder -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#stakeholder">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#DesiredResult"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#timeTargeted -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#timeTargeted">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Objective"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#BusinessPlan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Concept"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Influencer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#validity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/bmm#validity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/bmm#Tactic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Assessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Assessment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#expressesImpactOf"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:description xml:lang="en">An Assessment is a judgment that an influencer affects the employment of means and/or the achievement of ends.</terms:description>
+        <rdfs:comment xml:lang="en">Categories of Assessment include: Opportunity, Strength, Threat and Weakness. An assessment expresses a logical connection between influencers and the ends or means of the business plans.</rdfs:comment>
+        <rdfs:label xml:lang="en">Assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Assumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Assumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#InternalInfluencer"/>
+        <terms:description xml:lang="en">Internal Influencer that is taken for granted or without proof.</terms:description>
+        <rdfs:comment xml:lang="en">A thing that is accepted as true or as certain to happen, without proof.</rdfs:comment>
+        <rdfs:label xml:lang="en">Assumption</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#BusinessPlan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#BusinessPlan">
+        <terms:description>A business plan is a formal statement of business goals, reasons they are attainable, and plans for reaching them. It may also contain background information about the organization or team attempting to reach those goals (source: Wikipedia).</terms:description>
+        <rdfs:comment xml:lang="en">The Business Motivation Model contains a set of built-in concepts that define the elements of business plans.</rdfs:comment>
+        <rdfs:label>Business Plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#BusinessPolicy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#BusinessPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Directive"/>
+        <terms:description xml:lang="en">A Business Policy is concerned with directly controlling, influencing, or regulating the actions of an enterprise and the people in it and that is not directly enforceable.</terms:description>
+        <rdfs:comment xml:lang="en">A Business Policy is a kind of Directive. The purpose of a business policy is to govern or guide the enterprise. The formulation of a business policy is under an enterprise’s control by a party authorized to manage, control, or regulate the enterprise, by selection from alternatives in response to a combination of assessments. Compared to a business rule, a business policy tends to be less structured, less discrete, less atomic, less compliant with standard business vocabulary, less formally articulated.</rdfs:comment>
+        <rdfs:label xml:lang="en">Business Policy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#BusinessRule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#BusinessRule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Directive"/>
+        <terms:description xml:lang="en">A business rule is a directive that is practicable.</terms:description>
+        <rdfs:comment xml:lang="en">A Business Rule is a kind of Directive. Practicable means that a person who understands a directive could observe a relevant situation (including his or her own behavior) and recognize directly whether or not the business was complying with that directive. A rule is a claim of obligation or necessity. A business rule is highly structured, discrete, atomic, carefully expressed in terms of standard vocabulary.</rdfs:comment>
+        <rdfs:label xml:lang="en">Business Rule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Competitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Competitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#ExternalInfluencer"/>
+        <terms:description xml:lang="en">External Influencer that is a rival enterprise in a struggle for advantage over the subject enterprise.</terms:description>
+        <rdfs:comment xml:lang="en">An organization or country that is engaged in commercial or economic competition with others.</rdfs:comment>
+        <rdfs:label xml:lang="en">Competitor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Concept">
+        <terms:description xml:lang="en">The Concepts define the elements of a business plan.</terms:description>
+        <rdfs:comment xml:lang="en">The main concepts of the business plans are its Ends and Means. Each concept has only two basic attributes: identifier and text description.</rdfs:comment>
+        <rdfs:label xml:lang="en">Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#CorporateValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#CorporateValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#InternalInfluencer"/>
+        <terms:description xml:lang="en">Internal Influencer that is an ideal, custom, or institution that an enterprise promotes or agrees with. It may be positive or negative, depending on point of view.</terms:description>
+        <rdfs:label xml:lang="en">Corporate Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#CourseOfAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#CourseOfAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Means"/>
+        <terms:description xml:lang="en">A course of action is an approach or plan for configuring some aspect of the enterprise involving things, processes, locations, people, timing, or motivation undertaken to achieve ends.</terms:description>
+        <rdfs:comment xml:lang="en">A Course of Action is a kind of Means. Categories of Course of Action include Strategy and Tactic.</rdfs:comment>
+        <rdfs:label xml:lang="en">Course of Action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Customer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#ExternalInfluencer"/>
+        <terms:description xml:lang="en">External Influencer that is a role played by an individual or enterprise that has investigated, ordered, received, or paid for products or services from the subject enterprise.</terms:description>
+        <rdfs:comment xml:lang="en">A person or organization that buys goods or services from a shop or business.</rdfs:comment>
+        <rdfs:label xml:lang="en">Customer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#DesiredResult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#DesiredResult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#End"/>
+        <terms:description xml:lang="en">Desired Results state or target that the enterprise intends to maintain or sustain.</terms:description>
+        <rdfs:comment xml:lang="en">A Desired Result is a kind of End. Categories of Desired Result are Goal and Objective.</rdfs:comment>
+        <rdfs:label xml:lang="en">Desired Result</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Directive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Directive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Means"/>
+        <terms:description xml:lang="en">A Directive defines or constrains some aspect of an enterprise.</terms:description>
+        <rdfs:comment xml:lang="en">A Directive is a kind of Means. Categories of directive include business policy and business rule. A directive is intended to assert business structure or to control or influence the behavior of the enterprise.</rdfs:comment>
+        <rdfs:label xml:lang="en">Directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#End -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#End">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Concept"/>
+        <terms:description xml:lang="en">An End is something that is to be accomplished.</terms:description>
+        <rdfs:comment xml:lang="en">An End is a main Concept. Categories of End include Vision and Desired Result.</rdfs:comment>
+        <rdfs:label xml:lang="en">End</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#ExternalInfluencer"/>
+        <terms:description xml:lang="en">External Influencer that is the aggregate of surrounding conditions or Influencers affecting the existence or development of an enterprise.</terms:description>
+        <rdfs:label xml:lang="en">Environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#ExternalInfluencer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#ExternalInfluencer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Influencer"/>
+        <terms:description xml:lang="en">Influencer outside an enterprise’s organizational boundaries that can impact its employment of means or achievement of ends</terms:description>
+        <rdfs:comment xml:lang="en">Categories of external influencer include: technology, supplier, regulation, partner, environment, customer and competitor.</rdfs:comment>
+        <rdfs:label xml:lang="en">External Influencer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Goal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Goal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#DesiredResult"/>
+        <terms:description xml:lang="en">A Goal is a state or condition of the enterprise to be brought about or sustained through appropriate means.</terms:description>
+        <rdfs:comment xml:lang="en">A Goal is a kind of Desired Result. Compared to an objective, a goal tends to be: ongoing; qualitative (rather than quantitative); general (rather than specific); longer term.</rdfs:comment>
+        <rdfs:label xml:lang="en">Goal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Habit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Habit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#InternalInfluencer"/>
+        <terms:description xml:lang="en">Internal Influencer that is a customary practice or use.</terms:description>
+        <rdfs:comment xml:lang="en">A settled or regular tendency or practice, especially one that is hard to give up.</rdfs:comment>
+        <rdfs:label xml:lang="en">Habit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Influencer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Influencer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Concept"/>
+        <terms:description xml:lang="en">An Influencer is something that has the capability of producing an effect without apparent exertion of tangible force or direct exercise of command, and often without deliberate effort or intent.</terms:description>
+        <rdfs:comment xml:lang="en">Categories of influencer include: external influencer and internal influencer.</rdfs:comment>
+        <rdfs:label>Influencer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Infrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#InternalInfluencer"/>
+        <terms:description xml:lang="en">Internal Influencer that is the basic physical and organizational structures and facilities needed for the operation of the enterprise.</terms:description>
+        <rdfs:comment xml:lang="en">The basic physical and organizational structures and facilities (e.g., buildings, roads, power supplies) needed for the operation of a society or enterprise.</rdfs:comment>
+        <rdfs:label xml:lang="en">Infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#InternalInfluencer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#InternalInfluencer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Influencer"/>
+        <terms:description xml:lang="en">Influencer from within an enterprise that can impact its employment of means or achievement of ends.</terms:description>
+        <rdfs:comment xml:lang="en">Categories of internal influencer might include: assumption, corporate value, habit, infrastructure, issue, management prerogative and resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">Internal Influencer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Issue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Issue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#InternalInfluencer"/>
+        <terms:description xml:lang="en">Internal Influencer that is a point in question or a matter that is in dispute as between contending partners</terms:description>
+        <rdfs:comment xml:lang="en">An important topic or problem for debate or discussion.</rdfs:comment>
+        <rdfs:label xml:lang="en">Issue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#ManagementPrerogative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#ManagementPrerogative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#InternalInfluencer"/>
+        <terms:description xml:lang="en">Internal Influencer that is a right or privilege exercised by virtue of ownership or position in an enterprise.</terms:description>
+        <rdfs:comment xml:lang="en">A right or privilege exclusive to a particular individual or class.</rdfs:comment>
+        <rdfs:label xml:lang="en">Management Prerogative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Means -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Means">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Concept"/>
+        <terms:description xml:lang="en">A Means is a device, capability, regime, technique, restriction, agency, instrument, or method that may be called upon, activated, or enforced to achieve ends.</terms:description>
+        <rdfs:comment xml:lang="en">A Means is a main Concept. Categories of Means include: Course of Action, Directive and Mission.</rdfs:comment>
+        <rdfs:label xml:lang="en">Means</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Mission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Mission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Means"/>
+        <terms:description xml:lang="en">A mission is the ongoing operational activity of an enterprise.</terms:description>
+        <rdfs:comment xml:lang="en">Mission is a kind of Means</rdfs:comment>
+        <rdfs:label xml:lang="en">Mission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Objective -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Objective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#DesiredResult"/>
+        <terms:description xml:lang="en">An objective is a specific time-targeted, measurable, attainable target that an enterprise seeks to meet in order to achieve its goals.</terms:description>
+        <rdfs:comment xml:lang="en">An Objective is a kind of Desired Result. Compared to a goal, an objective is: short-term; not continuing beyond its time frame (although such time frames can be cyclical - monthly, quarterly, etc.).</rdfs:comment>
+        <rdfs:label xml:lang="en">Objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Partner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Partner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#ExternalInfluencer"/>
+        <terms:description xml:lang="en">External Influencer that is an enterprise that shares risks and profit with the subject enterprise (or is associated with the subject enterprise to share risks and profit) because this is mutually beneficial.</terms:description>
+        <rdfs:comment xml:lang="en">A person who takes part in an undertaking with another or others, especially in a business or firm with shared risks and profits.</rdfs:comment>
+        <rdfs:label xml:lang="en">Partner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#PotentialImpact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#PotentialImpact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Concept"/>
+        <terms:description>Evaluation that quantifies or qualifies an assessment in specific terms, types, or dimensions.</terms:description>
+        <rdfs:comment>Categories of potential impact include: potential reward and risk.</rdfs:comment>
+        <rdfs:label>Potential Impact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#PotentialReward -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#PotentialReward">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#PotentialImpact"/>
+        <terms:description>A Potential Reward is a potential impact that indicates the probability of gain.</terms:description>
+        <rdfs:comment>Some Potential Rewards are expressible as formulae, for example: Probability of gain, Potential gain, and Unit of measure.</rdfs:comment>
+        <rdfs:label>Potential Reward</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Regulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Regulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#ExternalInfluencer"/>
+        <terms:description xml:lang="en">External Influencer that is an order prescribed by an authority such as a government body or the management of an enterprise.</terms:description>
+        <rdfs:comment xml:lang="en">A rule or element of guidance made and maintained by an authority.</rdfs:comment>
+        <rdfs:label xml:lang="en">Regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Resource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#InternalInfluencer"/>
+        <terms:description xml:lang="en">Internal Influencer that is the quality or availability of resources.</terms:description>
+        <rdfs:label xml:lang="en">Resource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Risk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#PotentialImpact"/>
+        <terms:description>A Risk is a potential impact that indicates the possibility of loss, injury, disadvantage, or destruction.</terms:description>
+        <rdfs:comment>Some Risks are expressible as formulae: Probability of loss, Potential loss, Unit-of-measure.</rdfs:comment>
+        <rdfs:label>Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Strategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#CourseOfAction"/>
+        <terms:description xml:lang="en">A Strategy is an element of a plan devised through the science and art of business leadership exercised to ensure the most advantageous conditions.</terms:description>
+        <rdfs:comment xml:lang="en">A Strategy is a type of Course of Action. Compared to a tactic, a strategy tends to be longer term and broader in scope.</rdfs:comment>
+        <rdfs:label xml:lang="en">Strategy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Supplier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Supplier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#ExternalInfluencer"/>
+        <terms:description xml:lang="en">External Influencer that is a role played by an individual or enterprise that can furnish or provide products or services to the subject enterprise.</terms:description>
+        <rdfs:label xml:lang="en">Supplier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Tactic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Tactic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#CourseOfAction"/>
+        <terms:description xml:lang="en">A Tactic is a device or expedient to be employed as part of a strategy.</terms:description>
+        <rdfs:comment xml:lang="en">Compared to a strategy, a tactic tends to be shorter term and narrower in scope.</rdfs:comment>
+        <rdfs:label xml:lang="en">Tactic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#ExternalInfluencer"/>
+        <terms:description xml:lang="en">External Influencer that is caused by developments in and limitations of technology.</terms:description>
+        <rdfs:comment xml:lang="en">There may be prerequisites for use of technology; there may be enterprise activity that technology enables or restricts.</rdfs:comment>
+        <rdfs:label xml:lang="en">Technology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/bmm#Vision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Vision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#End"/>
+        <terms:description xml:lang="en">A Vision is about the future state of the enterprise, without regard to how it is to be achieved.</terms:description>
+        <rdfs:comment xml:lang="en">A Vision is a kind of End.</rdfs:comment>
+        <rdfs:label xml:lang="en">Vision</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
