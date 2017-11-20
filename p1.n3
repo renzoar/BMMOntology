@@ -494,7 +494,7 @@ utal:objective37 bmm:title "Objective 37" .
 utal:objective37 bmm:description "20%." .
 utal:objective37 bmm:measure "Percentage of growth of the collections of paintings and sculptures.". 
 utal:objective37 bmm:timetargeted "does not record date".
-utal:objective37 bmm:quatifies utal:goal12 
+utal:objective37 bmm:quatifies utal:goal12 .
 
 utal:objective38 rdf:type bmm:Objective .
 utal:objective38 bmm:elementOf utal:Plan . 
@@ -503,7 +503,7 @@ utal:objective38 bmm:title "Objective 38" .
 utal:objective38 bmm:description "Among the 10 most influential publishers." .
 utal:objective38 bmm:measure "Position within the most influential university publishers.". 
 utal:objective38 bmm:timetargeted "does not record date".
-utal:objective38 bmm:quatifies utal:goal12 
+utal:objective38 bmm:quatifies utal:goal12 .
 
 ########################################################################################################################################
 ########################################################################################################################################
@@ -639,7 +639,7 @@ utal:objective46 bmm:title "Objective 46" .
 utal:objective46 bmm:description "Stay in the 1st group." .
 utal:objective46 bmm:measure "Section Tariff Reference.".
 utal:objective46 bmm:timetargeted "does not record date".
-utal:objective46 bmm:quatifies utal:goal18 
+utal:objective46 bmm:quatifies utal:goal18 .
 
 utal:objective47 rdf:type bmm:Objective .
 utal:objective47 bmm:elementOf utal:Plan . 
@@ -648,7 +648,7 @@ utal:objective47 bmm:title "Objective 47" .
 utal:objective47 bmm:description "60 positive mentions in national media per year." .
 utal:objective47 bmm:measure "Number of positive mentions in qualified media.".
 utal:objective47 bmm:timetargeted "does not record date".
-utal:objective47 bmm:quatifies utal:goal18 
+utal:objective47 bmm:quatifies utal:goal18 .
 
 utal:objective48 rdf:type bmm:Objective .
 utal:objective48 bmm:elementOf utal:Plan . 
@@ -657,7 +657,7 @@ utal:objective48 bmm:title "Objective 48" .
 utal:objective48 bmm:description "80%." .
 utal:objective48 bmm:measure "Percentage of races in the accredited regime.".  
 utal:objective48 bmm:timetargeted "does not record date". 
-utal:objective48 bmm:quatifies utal:goal18 
+utal:objective48 bmm:quatifies utal:goal18 .
 
 ########################################################################################################################################
 
