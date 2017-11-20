@@ -18,32 +18,10 @@
         <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
         <ns1:identifier>obj1</ns1:identifier>
         <ns1:title>Objective 1</ns1:title>
-        <ns1:description>Train qualified professionals through a different educational project based on the development of competences.</ns1:description>
+        <ns1:description>More than 2/3 of satisfied employers.</ns1:description>
         <ns1:measure>Percentage of satisfied employers</ns1:measure>
-        <ns1:measure>Satisfaction with training</ns1:measure>
-        <ns1:measure>work satisfaction.</ns1:measure>
         <ns1:timetargeted>does not record date</ns1:timetargeted>
         <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal1"/>
-        <ns1:quatifies>
-          <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal2">
-            <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-            <ns1:identifier>goa2</ns1:identifier>
-            <ns1:title>Goal 2</ns1:title>
-            <ns1:description>More than 2/3 of the professionally active professionals in the first year are satisfied with their training.</ns1:description>
-            <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-          </ns1:Goal>
-        </ns1:quatifies>
-
-        <ns1:quatifies>
-          <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal3">
-            <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-            <ns1:identifier>goa3</ns1:identifier>
-            <ns1:title>Goal 3</ns1:title>
-            <ns1:description>More than 2/3 of the professionals are satisfied with their work.</ns1:description>
-            <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-          </ns1:Goal>
-        </ns1:quatifies>
-
       </rdf:Description>
     </dc11:defines>
 
@@ -78,7 +56,7 @@
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
     <ns1:identifier>goa1</ns1:identifier>
     <ns1:title>Goal 1</ns1:title>
-    <ns1:description>More than 2/3 of satisfied employers.</ns1:description>
+    <ns1:description>Train qualified professionals through a different educational project based on the development of competences.</ns1:description>
     <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
   </ns1:Goal>
 
@@ -86,163 +64,172 @@
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
     <ns1:identifier>obj2</ns1:identifier>
     <ns1:title>Objective 2</ns1:title>
-    <ns1:description>Develop new programs and consolidate an attractive academic offer of postgraduate and specialization for outstanding professionals.</ns1:description>
-    <ns1:measure>Percentage of accredited master's and doctoral programs.</ns1:measure>
-    <ns1:measure>Attractiveness rate (effective applications v / s number of vacancies)</ns1:measure>
+    <ns1:description>More than 2/3 of the professionally active professionals in the first year are satisfied with their training.</ns1:description>
+    <ns1:measure>Satisfaction with training</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal4">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa4</ns1:identifier>
-        <ns1:title>Goal 4</ns1:title>
-        <ns1:description>80% of doctorates in accredited regime.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal5">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa5</ns1:identifier>
-        <ns1:title>Goal 5</ns1:title>
-        <ns1:description>80% of master's degrees in accredited regime.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal6">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa6</ns1:identifier>
-        <ns1:title>Goal 6</ns1:title>
-        <ns1:description>1.5 Doctorate, 1.5 Master's degree, 1.5 Dental specialties.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal1"/>
   </ns1:Objective>
 
   <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective3">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
     <ns1:identifier>obj3</ns1:identifier>
     <ns1:title>Objective 3</ns1:title>
-    <ns1:description>Offer academic programs of quality undergraduate, accredited, inserted in an educational project based on the development of competences, curricularly integrated and with international connection.</ns1:description>
-    <ns1:measure>Percentage of users and clients that associate the University of Talca with the defined attributes.</ns1:measure>
+    <ns1:description>More than 2/3 of the professionals are satisfied with their work.</ns1:description>
+    <ns1:measure>work satisfaction.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal7">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa7</ns1:identifier>
-        <ns1:title>Goal 7</ns1:title>
-        <ns1:description>At least 2/3 of the users associate the University of Talca with the defined attributes.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal1"/>
   </ns1:Objective>
+
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal2">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>goa2</ns1:identifier>
+    <ns1:title>Goal 2</ns1:title>
+    <ns1:description>Develop new programs and consolidate an attractive academic offer of postgraduate and specialization for outstanding professionals.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
 
   <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective4">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
     <ns1:identifier>obj4</ns1:identifier>
     <ns1:title>Objective 4</ns1:title>
-    <ns1:description>Consolidate the educational model of undergraduate, postgraduate and continuing education, expanding its academic offer in both current and new programs, and linking it internationally.</ns1:description>
-    <ns1:measure>Percentage of graduates trained by competencies.</ns1:measure>
-    <ns1:measure>Percentage of exchange students per year with respect to the cohort.</ns1:measure>
-    <ns1:measure>Geographical expansion project prepared and evaluated.</ns1:measure>
-    <ns1:measure>Dropout percentage.</ns1:measure>
-    <ns1:measure>Timely Titration Rate by cohort.</ns1:measure>
+    <ns1:description>80% of doctorates in accredited regime.</ns1:description>
+    <ns1:measure>Percentage of accredited master's and doctoral programs.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal8">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa8</ns1:identifier>
-        <ns1:title>Goal 8</ns1:title>
-        <ns1:description>Greater than 90%</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal9">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa9</ns1:identifier>
-        <ns1:title>Goal 9</ns1:title>
-        <ns1:description>fifteen%</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal10">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa10</ns1:identifier>
-        <ns1:title>Goal 10</ns1:title>
-        <ns1:description>At least 1 project developed, evaluated and in execution.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal11">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa11</ns1:identifier>
-        <ns1:title>Goal 11</ns1:title>
-        <ns1:description>10% in 1st year, 10% in 2nd year, 8% in 3.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal12">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa12</ns1:identifier>
-        <ns1:title>Goal 12</ns1:title>
-        <ns1:description>25%</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal2"/>
   </ns1:Objective>
 
   <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective5">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
     <ns1:identifier>obj5</ns1:identifier>
     <ns1:title>Objective 5</ns1:title>
+    <ns1:description>80% of master's degrees in accredited regime.</ns1:description>
+    <ns1:measure>Percentage of accredited master's and doctoral programs.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal2"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective6">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj6</ns1:identifier>
+    <ns1:title>Objective 6</ns1:title>
+    <ns1:description>1.5 Doctorate, 1.5 Master's degree, 1.5 Dental specialties.</ns1:description>
+    <ns1:measure>Attractiveness rate (effective applications v / s number of vacancies)</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal2"/>
+  </ns1:Objective>
+
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal3">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>goa3</ns1:identifier>
+    <ns1:title>Goal 3</ns1:title>
+    <ns1:description>Offer academic programs of quality undergraduate, accredited, inserted in an educational project based on the development of competences, curricularly integrated and with international connection.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective7">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj7</ns1:identifier>
+    <ns1:title>Objective 7</ns1:title>
+    <ns1:description>At least 2/3 of the users associate the University of Talca with the defined attributes.</ns1:description>
+    <ns1:measure>Percentage of users and clients that associate the University of Talca with the defined attributes.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal3"/>
+  </ns1:Objective>
+
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal4">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>goa4</ns1:identifier>
+    <ns1:title>Goal 4</ns1:title>
+    <ns1:description>Consolidate the educational model of undergraduate, postgraduate and continuing education, expanding its academic offer in both current and new programs, and linking it internationally.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective8">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj8</ns1:identifier>
+    <ns1:title>Objective 8</ns1:title>
+    <ns1:description>Greater than 90%</ns1:description>
+    <ns1:measure>Percentage of graduates trained by competencies.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal4"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective9">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj9</ns1:identifier>
+    <ns1:title>Objective 9</ns1:title>
+    <ns1:description>fifteen%</ns1:description>
+    <ns1:measure>Percentage of exchange students per year with respect to the cohort.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal4"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective10">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj10</ns1:identifier>
+    <ns1:title>Objective 10</ns1:title>
+    <ns1:description>At least 1 project developed, evaluated and in execution.</ns1:description>
+    <ns1:measure>Geographical expansion project prepared and evaluated.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal4"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective11">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj11</ns1:identifier>
+    <ns1:title>Objective 11</ns1:title>
+    <ns1:description>10% in 1st year, 10% in 2nd year, 8% in 3.</ns1:description>
+    <ns1:measure>Dropout percentage.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal4"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective12">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj12</ns1:identifier>
+    <ns1:title>Objective 12</ns1:title>
+    <ns1:description>25%</ns1:description>
+    <ns1:measure>Timely Titration Rate by cohort.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal4"/>
+  </ns1:Objective>
+
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal5">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>goa5</ns1:identifier>
+    <ns1:title>Goal 5</ns1:title>
     <ns1:description>Attract outstanding students to technical-professional training, developing new areas of knowledge and consolidating existing ones in the area of influence.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective13">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj13</ns1:identifier>
+    <ns1:title>Objective 13</ns1:title>
+    <ns1:description>80%</ns1:description>
     <ns1:measure>Percentage of programs that achieve the goal of vacancy coverage</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal5"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective14">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj14</ns1:identifier>
+    <ns1:title>Objective 14</ns1:title>
+    <ns1:description>5.5</ns1:description>
     <ns1:measure>Average number of secondary education grades for students of technical-professional training.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal5"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective15">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj15</ns1:identifier>
+    <ns1:title>Objective 15</ns1:title>
+    <ns1:description>3</ns1:description>
     <ns1:measure>New programs</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal13">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa13</ns1:identifier>
-        <ns1:title>Goal 13</ns1:title>
-        <ns1:description>80%</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal14">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa14</ns1:identifier>
-        <ns1:title>Goal 14</ns1:title>
-        <ns1:description>5.5</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal15">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa15</ns1:identifier>
-        <ns1:title>Goal 15</ns1:title>
-        <ns1:description>3</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal5"/>
   </ns1:Objective>
 
   <ns1:Strategy rdf:about="http://www.utalca.cl/plan2015#strategy2">
@@ -253,179 +240,166 @@
     <ns1:isPlanedByMeansOf rdf:resource="http://www.utalca.cl/plan2015#mission"/>
   </ns1:Strategy>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective6">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal6">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj6</ns1:identifier>
-    <ns1:title>Objective 6</ns1:title>
+    <ns1:identifier>goa6</ns1:identifier>
+    <ns1:title>Goal 6</ns1:title>
     <ns1:description>Contribute to the scientific and technological development of society.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective16">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj16</ns1:identifier>
+    <ns1:title>Objective 16</ns1:title>
+    <ns1:description>0.8</ns1:description>
     <ns1:measure>Index of publications by JCE.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal6"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective17">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj17</ns1:identifier>
+    <ns1:title>Objective 17</ns1:title>
+    <ns1:description>0.15 (Fondecyt + Fondef).</ns1:description>
     <ns1:measure>Number of projects in execution by JCE.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal6"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective18">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj18</ns1:identifier>
+    <ns1:title>Objective 18</ns1:title>
+    <ns1:description>40 UF / JCE.</ns1:description>
     <ns1:measure>income from research projects.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal16">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa16</ns1:identifier>
-        <ns1:title>Goal 16</ns1:title>
-        <ns1:description>0.8</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal17">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa17</ns1:identifier>
-        <ns1:title>Goal 17</ns1:title>
-        <ns1:description>0.15 (Fondecyt + Fondef).</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal18">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa18</ns1:identifier>
-        <ns1:title>Goal 18</ns1:title>
-        <ns1:description>40 UF / JCE.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal6"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective7">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal7">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj7</ns1:identifier>
-    <ns1:title>Objective 7</ns1:title>
+    <ns1:identifier>goa7</ns1:identifier>
+    <ns1:title>Goal 7</ns1:title>
     <ns1:description>Contribute to the development of society through the transference of the results of development and innovation projects.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective19">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj19</ns1:identifier>
+    <ns1:title>Objective 19</ns1:title>
+    <ns1:description>25% increase.</ns1:description>
     <ns1:measure>Percentage of growth of companies linked to innovation and development projects.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal7"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective20">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj20</ns1:identifier>
+    <ns1:title>Objective 20</ns1:title>
+    <ns1:description>75% satisfied users.</ns1:description>
     <ns1:measure>Level of satisfaction.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal19">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa19</ns1:identifier>
-        <ns1:title>Goal 19</ns1:title>
-        <ns1:description>25% increase.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal20">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa20</ns1:identifier>
-        <ns1:title>Goal 20</ns1:title>
-        <ns1:description>75% satisfied users.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal7"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective8">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal8">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj8</ns1:identifier>
-    <ns1:title>Objective 8</ns1:title>
+    <ns1:identifier>goa8</ns1:identifier>
+    <ns1:title>Goal 8</ns1:title>
     <ns1:description>Improve the structure and processes of research management, innovation and technology transfer.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective21">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj21</ns1:identifier>
+    <ns1:title>Objective 21</ns1:title>
+    <ns1:description>fifteen%.</ns1:description>
     <ns1:measure>Growth of projects presented by JCE.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal8"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective22">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj22</ns1:identifier>
+    <ns1:title>Objective 22</ns1:title>
+    <ns1:description>20</ns1:description>
     <ns1:measure>Number of trained technology managers.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal8"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective23">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj23</ns1:identifier>
+    <ns1:title>Objective 23</ns1:title>
+    <ns1:description>75% satisfied users</ns1:description>
     <ns1:measure>Satifaction of users.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal8"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective24">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj24</ns1:identifier>
+    <ns1:title>Objective 24</ns1:title>
+    <ns1:description>25%</ns1:description>
     <ns1:measure>Percentage of increase of linking networks in I+D+i</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal21">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa21</ns1:identifier>
-        <ns1:title>Goal 21</ns1:title>
-        <ns1:description>fifteen%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal22">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa22</ns1:identifier>
-        <ns1:title>Goal 22</ns1:title>
-        <ns1:description>20</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal23">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa23</ns1:identifier>
-        <ns1:title>Goal 23</ns1:title>
-        <ns1:description>75% satisfied users</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal24">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa24</ns1:identifier>
-        <ns1:title>Goal 24</ns1:title>
-        <ns1:description>25%</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal8"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective9">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal9">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj9</ns1:identifier>
-    <ns1:title>Objective 9</ns1:title>
+    <ns1:identifier>goa9</ns1:identifier>
+    <ns1:title>Goal 9</ns1:title>
     <ns1:description>Activate available research capabilities.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective25">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj25</ns1:identifier>
+    <ns1:title>Objective 25</ns1:title>
+    <ns1:description>100%.</ns1:description>
     <ns1:measure>Percentage of specific areas of knowledge and priorities that have a critical mass.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal9"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective26">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj26</ns1:identifier>
+    <ns1:title>Objective 26</ns1:title>
+    <ns1:description>100%.</ns1:description>
     <ns1:measure>Rate of academics with achievement of scientific production goals.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal9"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective27">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj27</ns1:identifier>
+    <ns1:title>Objective 27</ns1:title>
+    <ns1:description>51%.</ns1:description>
     <ns1:measure>Percentage of academics dedicated to research.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal9"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective28">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj28</ns1:identifier>
+    <ns1:title>Objective 28</ns1:title>
+    <ns1:description>90.</ns1:description>
     <ns1:measure>Number of active academics dedicated to research.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal25">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa25</ns1:identifier>
-        <ns1:title>Goal 25</ns1:title>
-        <ns1:description>100%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal26">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa26</ns1:identifier>
-        <ns1:title>Goal 26</ns1:title>
-        <ns1:description>100%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal27">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa27</ns1:identifier>
-        <ns1:title>Goal 27</ns1:title>
-        <ns1:description>51%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal28">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa28</ns1:identifier>
-        <ns1:title>Goal 28</ns1:title>
-        <ns1:description>90.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal9"/>
   </ns1:Objective>
 
   <ns1:Strategy rdf:about="http://www.utalca.cl/plan2015#strategy3">
@@ -436,138 +410,128 @@
     <ns1:isPlanedByMeansOf rdf:resource="http://www.utalca.cl/plan2015#mission"/>
   </ns1:Strategy>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective10">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal10">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj10</ns1:identifier>
-    <ns1:title>Objective 10</ns1:title>
+    <ns1:identifier>goa10</ns1:identifier>
+    <ns1:title>Goal 10</ns1:title>
     <ns1:description>Contribute to the development of the area of influence (south center), in areas that improve the living conditions of its inhabitants.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective29">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj29</ns1:identifier>
+    <ns1:title>Objective 29</ns1:title>
+    <ns1:description>Presence in the RS ranking.</ns1:description>
     <ns1:measure>RSU index.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal10"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective30">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj30</ns1:identifier>
+    <ns1:title>Objective 30</ns1:title>
+    <ns1:description>Level II in GRI report.</ns1:description>
     <ns1:measure>Sustainability report</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal10"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective31">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj31</ns1:identifier>
+    <ns1:title>Objective 31</ns1:title>
+    <ns1:description>3 to 2011, 2 to 2012, 2 to 2013..</ns1:description>
     <ns1:measure>Projects with impact on RSU.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal29">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa29</ns1:identifier>
-        <ns1:title>Goal 29</ns1:title>
-        <ns1:description>Presence in the RS ranking.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal30">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa30</ns1:identifier>
-        <ns1:title>Goal 30</ns1:title>
-        <ns1:description>Level II in GRI report.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal31">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa31</ns1:identifier>
-        <ns1:title>Goal 31</ns1:title>
-        <ns1:description>3 to 2011, 2 to 2012, 2 to 2013..</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal10"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective11">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal11">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj11</ns1:identifier>
-    <ns1:title>Objective 11</ns1:title>
+    <ns1:identifier>goa11</ns1:identifier>
+    <ns1:title>Goal 11</ns1:title>
     <ns1:description>To be distinguished by the contribution to the community in: academic and sports extension, artistic and cultural heritage, promotion of regional identity, attractiveness of quality human capital to the region and strengthening of secondary education and health institutions.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective32">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj32</ns1:identifier>
+    <ns1:title>Objective 32</ns1:title>
+    <ns1:description>90%.</ns1:description>
     <ns1:measure>Percentage of activities that meet their goal of participants.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal11"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective33">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj33</ns1:identifier>
+    <ns1:title>Objective 33</ns1:title>
+    <ns1:description>1.</ns1:description>
     <ns1:measure>Have a sports complex of excellence.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal32">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa32</ns1:identifier>
-        <ns1:title>Goal 32</ns1:title>
-        <ns1:description>90%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal33">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa33</ns1:identifier>
-        <ns1:title>Goal 33</ns1:title>
-        <ns1:description>1.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal11"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective12">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal12">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj12</ns1:identifier>
-    <ns1:title>Objective 12</ns1:title>
+    <ns1:identifier>goa12</ns1:identifier>
+    <ns1:title>Goal 12</ns1:title>
     <ns1:description>Develop and implement linkage models and strategic actions towards the community, with emphasis on the areas of health and education.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective34">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj34</ns1:identifier>
+    <ns1:title>Objective 34</ns1:title>
+    <ns1:description>20%.</ns1:description>
     <ns1:measure>Percentage of growth in the amount of services provided.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal12"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective35">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj35</ns1:identifier>
+    <ns1:title>Objective 35</ns1:title>
+    <ns1:description>3.</ns1:description>
     <ns1:measure>Number of strategic actions completed.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal12"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective36">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj36</ns1:identifier>
+    <ns1:title>Objective 36</ns1:title>
+    <ns1:description>25%.</ns1:description>
     <ns1:measure>Percentage of growth of activities of artistic and cultural extension.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal12"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective37">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj37</ns1:identifier>
+    <ns1:title>Objective 37</ns1:title>
+    <ns1:description>20%.</ns1:description>
     <ns1:measure>Percentage of growth of the collections of paintings and sculptures.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal12"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective38">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj38</ns1:identifier>
+    <ns1:title>Objective 38</ns1:title>
+    <ns1:description>Among the 10 most influential publishers.</ns1:description>
     <ns1:measure>Position within the most influential university publishers.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal34">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa34</ns1:identifier>
-        <ns1:title>Goal 34</ns1:title>
-        <ns1:description>20%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal35">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa35</ns1:identifier>
-        <ns1:title>Goal 35</ns1:title>
-        <ns1:description>3.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal36">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa36</ns1:identifier>
-        <ns1:title>Goal 36</ns1:title>
-        <ns1:description>25%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal37">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa37</ns1:identifier>
-        <ns1:title>Goal 37</ns1:title>
-        <ns1:description>20%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal38">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa38</ns1:identifier>
-        <ns1:title>Goal 38</ns1:title>
-        <ns1:description>Among the 10 most influential publishers.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal12"/>
   </ns1:Objective>
 
   <ns1:Strategy rdf:about="http://www.utalca.cl/plan2015#strategy4">
@@ -578,298 +542,280 @@
     <ns1:isPlanedByMeansOf rdf:resource="http://www.utalca.cl/plan2015#mission"/>
   </ns1:Strategy>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective13">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal13">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj13</ns1:identifier>
-    <ns1:title>Objective 13</ns1:title>
+    <ns1:identifier>goa13</ns1:identifier>
+    <ns1:title>Goal 13</ns1:title>
     <ns1:description>Improve productivity by optimizing management and economic and financial sustainability.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective39">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj39</ns1:identifier>
+    <ns1:title>Objective 39</ns1:title>
+    <ns1:description>7%.</ns1:description>
     <ns1:measure>Percentage of the budget in real investment.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal39">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa39</ns1:identifier>
-        <ns1:title>Goal 39</ns1:title>
-        <ns1:description>7%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal13"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective14">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal14">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj14</ns1:identifier>
-    <ns1:title>Objective 14</ns1:title>
+    <ns1:identifier>goa14</ns1:identifier>
+    <ns1:title>Goal 14</ns1:title>
     <ns1:description>To contribute to the development of higher education by contributing with good management practices in all its areas.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective40">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj40</ns1:identifier>
+    <ns1:title>Objective 40</ns1:title>
+    <ns1:description>90%.</ns1:description>
     <ns1:measure>Percentage of consultancies and benefits evaluated positively by their users.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal40">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa40</ns1:identifier>
-        <ns1:title>Goal 40</ns1:title>
-        <ns1:description>90%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal14"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective15">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal15">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj15</ns1:identifier>
-    <ns1:title>Objective 15</ns1:title>
+    <ns1:identifier>goa15</ns1:identifier>
+    <ns1:title>Goal 15</ns1:title>
     <ns1:description>Have management indicators per unit.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective41">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj41</ns1:identifier>
+    <ns1:title>Objective 41</ns1:title>
+    <ns1:description>Have a costing system.</ns1:description>
     <ns1:measure>Have systems of indicators.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal41">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa41</ns1:identifier>
-        <ns1:title>Goal 41</ns1:title>
-        <ns1:description>Have a costing system.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal15"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective16">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal16">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj16</ns1:identifier>
-    <ns1:title>Objective 16</ns1:title>
+    <ns1:identifier>goa16</ns1:identifier>
+    <ns1:title>Goal 16</ns1:title>
     <ns1:description>Develop a comprehensive quality management system.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective42">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj42</ns1:identifier>
+    <ns1:title>Objective 42</ns1:title>
+    <ns1:description>100%</ns1:description>
     <ns1:measure>Percentage of system implementation. (critical areas or processes).</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal42">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa42</ns1:identifier>
-        <ns1:title>Goal 42</ns1:title>
-        <ns1:description>100%</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal16"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective17">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal17">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj17</ns1:identifier>
-    <ns1:title>Objective 17</ns1:title>
+    <ns1:identifier>goa17</ns1:identifier>
+    <ns1:title>Goal 17</ns1:title>
     <ns1:description>Improve the valuation system, evaluation and qualification of the contribution of the administrative staff.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective43">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj43</ns1:identifier>
+    <ns1:title>Objective 43</ns1:title>
+    <ns1:description>100%</ns1:description>
     <ns1:measure>Percentage of compliance with system development.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal43">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa43</ns1:identifier>
-        <ns1:title>Goal 43</ns1:title>
-        <ns1:description>100%</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal17"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective18">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal18">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj18</ns1:identifier>
-    <ns1:title>Objective 18</ns1:title>
+    <ns1:identifier>goa18</ns1:identifier>
+    <ns1:title>Goal 18</ns1:title>
     <ns1:description>To be recognized as an innovative university of excellence and a reference in the educational system.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective44">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj44</ns1:identifier>
+    <ns1:title>Objective 44</ns1:title>
+    <ns1:description>Be among the top 5 universities created after 1981.</ns1:description>
     <ns1:measure>Ranking position selection process scores and NEM.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal18"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective45">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj45</ns1:identifier>
+    <ns1:title>Objective 45</ns1:title>
+    <ns1:description>Be among the top 5 universities created after 1981.</ns1:description>
     <ns1:measure>Position in national rankings.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal18"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective46">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj46</ns1:identifier>
+    <ns1:title>Objective 46</ns1:title>
+    <ns1:description>Stay in the 1st group.</ns1:description>
     <ns1:measure>Section Tariff Reference.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal18"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective47">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj47</ns1:identifier>
+    <ns1:title>Objective 47</ns1:title>
+    <ns1:description>60 positive mentions in national media per year.</ns1:description>
     <ns1:measure>Number of positive mentions in qualified media.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal18"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective48">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj48</ns1:identifier>
+    <ns1:title>Objective 48</ns1:title>
+    <ns1:description>80%.</ns1:description>
     <ns1:measure>Percentage of races in the accredited regime.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal44">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa44</ns1:identifier>
-        <ns1:title>Goal 44</ns1:title>
-        <ns1:description>Be among the top 5 universities created after 1981.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal45">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa45</ns1:identifier>
-        <ns1:title>Goal 45</ns1:title>
-        <ns1:description>Be among the top 5 universities created after 1981.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal46">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa46</ns1:identifier>
-        <ns1:title>Goal 46</ns1:title>
-        <ns1:description>Stay in the 1st group.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal47">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa47</ns1:identifier>
-        <ns1:title>Goal 47</ns1:title>
-        <ns1:description>60 positive mentions in national media per year.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal48">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa48</ns1:identifier>
-        <ns1:title>Goal 48</ns1:title>
-        <ns1:description>80%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal18"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective19">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal19">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj19</ns1:identifier>
-    <ns1:title>Objective 19</ns1:title>
+    <ns1:identifier>goa19</ns1:identifier>
+    <ns1:title>Goal 19</ns1:title>
     <ns1:description>Develop networks and alliances with graduates, employers, sponsors and national and international institutions.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective49">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj49</ns1:identifier>
+    <ns1:title>Objective 49</ns1:title>
+    <ns1:description>80%.</ns1:description>
     <ns1:measure>Percentage of agreements used.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal19"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective50">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj50</ns1:identifier>
+    <ns1:title>Objective 50</ns1:title>
+    <ns1:description>10%.</ns1:description>
     <ns1:measure>Percentage increase of agreements signed.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal49">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa49</ns1:identifier>
-        <ns1:title>Goal 49</ns1:title>
-        <ns1:description>80%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal50">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa50</ns1:identifier>
-        <ns1:title>Goal 50</ns1:title>
-        <ns1:description>10%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal19"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective20">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal20">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj20</ns1:identifier>
-    <ns1:title>Objective 20</ns1:title>
+    <ns1:identifier>goa20</ns1:identifier>
+    <ns1:title>Goal 20</ns1:title>
     <ns1:description>incorporate, optimize and integrate information systems to enhance administrative and academic management.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective51">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj51</ns1:identifier>
+    <ns1:title>Objective 51</ns1:title>
+    <ns1:description>75% of respondents are considered satisfied or very satisfied with the service.</ns1:description>
     <ns1:measure>User Satisfaction Index.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal51">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa51</ns1:identifier>
-        <ns1:title>Goal 51</ns1:title>
-        <ns1:description>75% of respondents are considered satisfied or very satisfied with the service.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal20"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective21">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal21">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj21</ns1:identifier>
-    <ns1:title>Objective 21</ns1:title>
+    <ns1:identifier>goa21</ns1:identifier>
+    <ns1:title>Goal 21</ns1:title>
     <ns1:description>be an attractive place to work with the capacity of retention of its academic and administrative staff.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective52">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj52</ns1:identifier>
+    <ns1:title>Objective 52</ns1:title>
+    <ns1:description>75% are professionally satisfied.</ns1:description>
     <ns1:measure>Percentage of staff that meets the goal of job satisfaction.</ns1:measure>
+    <ns1:timetargeted>does not record date</ns1:timetargeted>
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal21"/>
+  </ns1:Objective>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective53">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj53</ns1:identifier>
+    <ns1:title>Objective 53</ns1:title>
+    <ns1:description>less than 2%.</ns1:description>
     <ns1:measure>Rotation of personnel (Academics and administravos).</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal52">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa52</ns1:identifier>
-        <ns1:title>Goal 52</ns1:title>
-        <ns1:description>75% are professionally satisfied.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal53">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa53</ns1:identifier>
-        <ns1:title>Goal 53</ns1:title>
-        <ns1:description>less than 2%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal21"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective22">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal22">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj22</ns1:identifier>
-    <ns1:title>Objective 22</ns1:title>
+    <ns1:identifier>goa22</ns1:identifier>
+    <ns1:title>Goal 22</ns1:title>
     <ns1:description>Promote in the institution organizational competencies aimed at: -Facing skills in strategic and operational management at the administrative, academic and support levels -Improving innovation management.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective54">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj54</ns1:identifier>
+    <ns1:title>Objective 54</ns1:title>
+    <ns1:description>90%.</ns1:description>
     <ns1:measure>Percentage of positions occupied by people who meet the competency profile.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal54">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa54</ns1:identifier>
-        <ns1:title>Goal 54</ns1:title>
-        <ns1:description>90%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal22"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective23">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal23">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj23</ns1:identifier>
-    <ns1:title>Objective 23</ns1:title>
+    <ns1:identifier>goa23</ns1:identifier>
+    <ns1:title>Goal 23</ns1:title>
     <ns1:description>Adjust the organizational structure to the development strategy of the University.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective55">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj55</ns1:identifier>
+    <ns1:title>Objective 55</ns1:title>
+    <ns1:description>100%.</ns1:description>
     <ns1:measure>Modifications to the proposed structure and made</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal55">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa55</ns1:identifier>
-        <ns1:title>Goal 55</ns1:title>
-        <ns1:description>100%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal23"/>
   </ns1:Objective>
 
-  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective24">
+  <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal24">
     <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-    <ns1:identifier>obj24</ns1:identifier>
-    <ns1:title>Objective 24</ns1:title>
+    <ns1:identifier>goa24</ns1:identifier>
+    <ns1:title>Goal 24</ns1:title>
     <ns1:description>Promote an organizational culture that possesses the following attributes: -Strategic shared vision. - Quality and user orientation. - Orientation to the achievement of goals. - Culture of evaluation. -Social responsability. -Creativity and innovation.</ns1:description>
+    <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
+  </ns1:Goal>
+
+  <ns1:Objective rdf:about="http://www.utalca.cl/plan2015#objective56">
+    <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
+    <ns1:identifier>obj56</ns1:identifier>
+    <ns1:title>Objective 56</ns1:title>
+    <ns1:description>80%.</ns1:description>
     <ns1:measure>Percentage of attributes of the organizational culture evaluated on the goal.</ns1:measure>
     <ns1:timetargeted>does not record date</ns1:timetargeted>
-    <ns1:quatifies>
-      <ns1:Goal rdf:about="http://www.utalca.cl/plan2015#goal56">
-        <ns1:elementOf rdf:resource="http://www.utalca.cl/plan2015#Plan"/>
-        <ns1:identifier>goa56</ns1:identifier>
-        <ns1:title>Goal 56</ns1:title>
-        <ns1:description>80%.</ns1:description>
-        <ns1:amplifies rdf:resource="http://www.utalca.cl/plan2015#vision"/>
-      </ns1:Goal>
-    </ns1:quatifies>
-
+    <ns1:quatifies rdf:resource="http://www.utalca.cl/plan2015#goal24"/>
   </ns1:Objective>
 
 </rdf:RDF>
