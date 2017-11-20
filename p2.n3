@@ -13,8 +13,96 @@ utal:plan utal:Creator "Talca University" .
 utal:plan dc:defines utal:mission .
 utal:plan dc:defines utal:vision .
 utal:plan dc:defines utal:strategy1 .
-utal:plan dc:defines utal:objective1 .
+utal:plan dc:defines utal:strategy2 .
+utal:plan dc:defines utal:strategy3 .
+utal:plan dc:defines utal:strategy4 .
+
 utal:plan dc:defines utal:goal1 .
+utal:plan dc:defines utal:goal2 .
+utal:plan dc:defines utal:goal3 .
+utal:plan dc:defines utal:goal4 .
+utal:plan dc:defines utal:goal5 .
+utal:plan dc:defines utal:goal6 .
+utal:plan dc:defines utal:goal7 .
+utal:plan dc:defines utal:goal8 .
+utal:plan dc:defines utal:goal9 .
+utal:plan dc:defines utal:goal10 .
+utal:plan dc:defines utal:goal11 .
+utal:plan dc:defines utal:goal12 .
+utal:plan dc:defines utal:goal13 .
+utal:plan dc:defines utal:goal14 .
+utal:plan dc:defines utal:goal15 .
+utal:plan dc:defines utal:goal16 .
+utal:plan dc:defines utal:goal17 .
+utal:plan dc:defines utal:goal18 .
+utal:plan dc:defines utal:goal19 .
+utal:plan dc:defines utal:goal20 .
+utal:plan dc:defines utal:goal21 .
+utal:plan dc:defines utal:goal22 .
+utal:plan dc:defines utal:goal23 .
+utal:plan dc:defines utal:goal24 .
+
+utal:plan dc:defines utal:objective1 .
+utal:plan dc:defines utal:objective2 .
+utal:plan dc:defines utal:objective3 .
+utal:plan dc:defines utal:objective4 .
+utal:plan dc:defines utal:objective5 .
+utal:plan dc:defines utal:objective6 .
+utal:plan dc:defines utal:objective7 .
+utal:plan dc:defines utal:objective8 .
+utal:plan dc:defines utal:objective9 .
+utal:plan dc:defines utal:objective10 .
+utal:plan dc:defines utal:objective11 .
+utal:plan dc:defines utal:objective12 .
+utal:plan dc:defines utal:objective13 .
+utal:plan dc:defines utal:objective14 .
+utal:plan dc:defines utal:objective15 .
+utal:plan dc:defines utal:objective16 .
+utal:plan dc:defines utal:objective17 .
+utal:plan dc:defines utal:objective18 .
+utal:plan dc:defines utal:objective19 .
+utal:plan dc:defines utal:objective20 .
+utal:plan dc:defines utal:objective21 .
+utal:plan dc:defines utal:objective22 .
+utal:plan dc:defines utal:objective23 .
+utal:plan dc:defines utal:objective24 .
+utal:plan dc:defines utal:objective25 .
+utal:plan dc:defines utal:objective26 .
+utal:plan dc:defines utal:objective27 .
+utal:plan dc:defines utal:objective28 .
+utal:plan dc:defines utal:objective29 .
+utal:plan dc:defines utal:objective30 .
+utal:plan dc:defines utal:objective31 .
+utal:plan dc:defines utal:objective32 .
+utal:plan dc:defines utal:objective33 .
+utal:plan dc:defines utal:objective34 .
+utal:plan dc:defines utal:objective35 .
+utal:plan dc:defines utal:objective36 .
+utal:plan dc:defines utal:objective37 .
+utal:plan dc:defines utal:objective38 .
+utal:plan dc:defines utal:objective39 .
+utal:plan dc:defines utal:objective40 .
+utal:plan dc:defines utal:objective41 .
+utal:plan dc:defines utal:objective42 .
+utal:plan dc:defines utal:objective43 .
+utal:plan dc:defines utal:objective44 .
+utal:plan dc:defines utal:objective45 .
+utal:plan dc:defines utal:objective46 .
+utal:plan dc:defines utal:objective47 .
+utal:plan dc:defines utal:objective48 .
+utal:plan dc:defines utal:objective49 .
+utal:plan dc:defines utal:objective50 .
+utal:plan dc:defines utal:objective51 .
+utal:plan dc:defines utal:objective52 .
+utal:plan dc:defines utal:objective53 .
+utal:plan dc:defines utal:objective54 .
+utal:plan dc:defines utal:objective55 .
+utal:plan dc:defines utal:objective56 .
+
+
+
+
+
 
 utal:mission rdf:type bmm:Mission .
 utal:mission bmm:elementOf utal:plan .  
