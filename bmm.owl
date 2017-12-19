@@ -497,6 +497,18 @@
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#isJudgmentOf"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#identifies"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:description xml:lang="en">An Assessment is a judgment that an influencer affects the employment of means and/or the achievement of ends.</terms:description>
         <rdfs:comment xml:lang="en">Categories of Assessment include: Opportunity, Strength, Threat and Weakness. An assessment expresses a logical connection between influencers and the ends or means of the business plans.</rdfs:comment>
         <rdfs:label xml:lang="en">Assessment</rdfs:label>
@@ -518,6 +530,24 @@
     <!-- http://www.semanticweb.org/ontologies/bmm#BusinessPlan -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#BusinessPlan">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#title"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#creator"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#creationDate"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:description>A business plan is a formal statement of business goals, reasons they are attainable, and plans for reaching them. It may also contain background information about the organization or team attempting to reach those goals (source: Wikipedia).</terms:description>
         <rdfs:comment xml:lang="en">The Business Motivation Model contains a set of built-in concepts that define the elements of business plans.</rdfs:comment>
         <rdfs:label>Business Plan</rdfs:label>
@@ -561,6 +591,24 @@
     <!-- http://www.semanticweb.org/ontologies/bmm#Concept -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#identifier"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#title"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#description"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:description xml:lang="en">The Concepts define the elements of a business plan.</terms:description>
         <rdfs:comment xml:lang="en">The main concepts of the business plans are its Ends and Means. Each concept has only two basic attributes: identifier and text description.</rdfs:comment>
         <rdfs:label xml:lang="en">Concept</rdfs:label>
@@ -658,6 +706,13 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Goal">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#DesiredResult"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#amplifies"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <terms:description xml:lang="en">A Goal is a state or condition of the enterprise to be brought about or sustained through appropriate means.</terms:description>
         <rdfs:comment xml:lang="en">A Goal is a kind of Desired Result. Compared to an objective, a goal tends to be: ongoing; qualitative (rather than quantitative); general (rather than specific); longer term.</rdfs:comment>
         <rdfs:label xml:lang="en">Goal</rdfs:label>
@@ -746,6 +801,13 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Mission">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#Means"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#makesOperative"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <terms:description xml:lang="en">A mission is the ongoing operational activity of an enterprise.</terms:description>
         <rdfs:comment xml:lang="en">Mission is a kind of Means</rdfs:comment>
         <rdfs:label xml:lang="en">Mission</rdfs:label>
@@ -801,6 +863,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/bmm#Regulation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/bmm#ExternalInfluencer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/bmm#actsAs"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:description xml:lang="en">External Influencer that is an order prescribed by an authority such as a government body or the management of an enterprise.</terms:description>
         <rdfs:comment xml:lang="en">A rule or element of guidance made and maintained by an authority.</rdfs:comment>
         <rdfs:label xml:lang="en">Regulation</rdfs:label>
